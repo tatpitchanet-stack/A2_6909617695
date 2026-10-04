@@ -1,0 +1,9 @@
+.about_photo {
+    width: 230px;
+}
+
+#about_me .about_border {
+    border: 5px solid rgb(0, 119, 255) ;
+    border-radius: 20px ;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
