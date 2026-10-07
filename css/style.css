@@ -3,19 +3,19 @@
 }
 
 #about_me .about_border {
-    border: 5px solid rgb(0, 119, 255) ;
-    border-radius: 20px ;
+    border: 9px solid rgb(0, 119, 255) ;
+    border-radius: 50px ;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 #projects .project1 {
-    border: 5px solid rgb(250, 30, 34) ;
-    border-radius: 20px ;
+    border: 7px solid rgb(250, 30, 34) ;
+    border-radius: 30px ;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 #projects .project2 {
-    border: 5px solid rgb(252, 246, 70) ;
-    border-radius: 20px ;
+    border: 7px solid rgb(252, 246, 70) ;
+    border-radius: 30px ;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
