@@ -1,11 +1,18 @@
 .about_photo {
-    width: 230px;
+    width: 200px;
+    margin-top: 7px;
+    margin-left: 20px;
+    border: 6px rgb(250, 30, 34) dashed;
+    border-radius: 6px;
 }
 
 #about_me .about_border {
     border: 9px solid rgb(0, 119, 255) ;
     border-radius: 50px ;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 900px;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 #projects .project1 {
@@ -18,4 +25,52 @@
     border: 7px solid rgb(252, 246, 70) ;
     border-radius: 30px ;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar {
+    background-color: rgb(0, 119, 255) !important;
+}
+
+.navbar a {
+    color: white !important;
+}
+h1, h2 {
+    font-family: "Changa One" , sans-serif;
+}
+
+.navbar-brand {
+    font-family: "Changa One" , sans-serif;
+}
+
+.bigsize {
+    font-size: 60px;
+}
+
+.section {
+    font-size: 47px;
+}
+
+body {
+    font-family: "Signika" , sans-serif;
+    font-weight: 600;
+}
+
+.section-AboutMe {
+    border-bottom: 6px rgb(252, 246, 70) solid;
+    margin-left: 20px;
+    display: inline-block;
+    padding-bottom: 0px;
+    line-height: 1;
+    border-radius: 6px;
+}
+
+.section-Projects {
+    border-bottom: 6px rgb(0, 119, 255) solid;
+    display: inline-block;
+    padding-bottom: 2px;
+    border-radius: 6px;
+}
+
+h3 {
+    margin-top: 20px;
 }

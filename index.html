@@ -1,106 +1,128 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My Portfolio</title>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
 
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
-    </head>
-     
-    <body>
-     <nav class="navbar fixed-top bg-body-tertiary">
-      <div class="container-fluid">
-       <a class="navbar-brand" href="#">My Portfolio</a>
-        <div>
-            <a href="#" class="navbar-brand">Home</a>
-            <a href="#" class="navbar-brand">About Me</a>
-            <a href="#" class="navbar-brand">Projects</a>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <nav class="navbar fixed-top bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <h2> My Portfolio</h2>
+            </a>
+            <div>
+                <a href="#" class="navbar-brand">Home</a>
+                <a href="#" class="navbar-brand">About Me</a>
+                <a href="#" class="navbar-brand">Projects</a>
+            </div>
         </div>
-      </div>
-     </nav>
+    </nav>
 
-     <section id="home" class="container d-flex justify-content-center pt-5 mt-5">
-      <h1>Welcome to my portfolio</h1>
-     </section>
-     <section id="about_me" class="container pt-5 ">
+    <section id="home" class="container d-flex justify-content-center pt-5 mt-5">
+        <h1 class="bigsize">Welcome to my portfolio</h1>
+    </section>
+    <section id="about_me" class="container pt-5 ">
         <div class="card about_border">
-         <div class="card-body">
-           <div class="row">
-            <div class="col-md-6">
-             <img src="media/IMG_pim.JPG" class="about_photo" alt="A cool person taking a photo with a Stitch doll wearing super cool red glasses.">
-            </div>
-            <div class="col-md-6">
-             <h1>About Me</h1>
-             <h3>Name : Tatpitcha Netthong</h3>
-             <h3>Student ID : 6909617695</h3>
-             <h3>Program : Computer Science</h3>
-             <h3>Instagram : 
-                <a href="https://www.instagram.com/my9rbk?stkn=MWt5amVzMmtmZHVpaw%3D%3D&utm_source=qr" target="_blank"> 
-                  @MY9RBK
-                </a>
-             </h3>
-             <p>Hello My nickname is Pim. I am a first-year Computer Science student 
-                at Thammasat University. I am currently studying and developing my coding skills 
-                to become better in every aspect.
-             </p>
-            </div>
-           </div>
-         </div>
-        </div>
-     </section>
-     <section id="projects" class="container text-center pt-5 mt-5">
-      <h1>Projects</h1>
-
-      <div class="row pt-5">
-        <div class="col-md-6">
-            <div class="card project1">
-                <div class="card-body">
-                    <h3>CS100 A1 : My First Learning Portfolio</h3>
-
-                    <p><strong>Type : </strong> Course Assignment</p>
-                    <p><strong>Date : </strong>29 Aug 2026</p>
-                    <p><strong>Role : </strong>Individual Developer</p>
-                    <p><strong>Description : </strong>Developed a one-page Learning Portfolio website using HTML and CSS.</p>
-                    <p><strong>Skills : </strong>HTML, CSS, Semantic HTML</p>
-                    <p><strong>Reflection : </strong>I learned how to use HTML with CSS. 
-                        Doing the project by myself helped me understand more. 
-                        I had some problems with arranging the text, 
-                        but after trying to fix it, the layout became more organized. 
-                        If I continue developing it, 
-                        I will make the website more readable and interesting.
-                    </p>
-                    <p><strong>Evidence : </strong>
-                        <a href="6909617695.zip"> View Project </a>
-                    </p>
+            <div class="card-body">
+                <div class="row align-items-start">
+                    <div class="col-md-5">
+                        <h1 class="section section-AboutMe">About Me</h1>
+                        <img src="media/IMG_pim.JPG" class="about_photo d-block"
+                            alt="A cool person taking a photo with a Stitch doll wearing super cool red glasses.">
+                    </div>
+                    <div class="col-md-7">
+                        <h3> <i class="bi bi-person-vcard"></i> <strong> Name :</strong> Tatpitcha Netthong</h3>
+                        <h3> <i class="bi bi-fingerprint"></i> <strong> Student ID :</strong> 6909617695</h3>
+                        <h3> <i class="bi bi-backpack2"></i> <strong> Program : </strong>Computer Science</h3>
+                        <h3> <i class="bi bi-instagram"></i> <strong> Instagram :</strong> 
+                            <a href="https://www.instagram.com/my9rbk?stkn=MWt5amVzMmtmZHVpaw%3D%3D&utm_source=qr"
+                                target="_blank">
+                                @MY9RBK
+                            </a>
+                        </h3>
+                        <p>Hello My nickname is Pim. I am a first-year Computer Science student
+                            at Thammasat University. I am currently studying and developing my coding skills
+                            to become better in every aspect.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
+    </section>
+    <section id="projects" class="container text-center pt-5 mt-5">
+        <h1 class="section section-Projects">Projects</h1>
 
-        <div class="col-md-6">
-            <div class="card project2">
-                <div class="card-body">
-                    <h3>Project 2</h3>
+        <div class="row pt-5">
+            <div class="col-md-6">
+                <div class="card project1">
+                    <div class="card-body">
+                        <h3>CS100 A1 : My First Learning Portfolio</h3>
 
-                    <p><strong>Type : </strong>Course Project</p>
-                    <p><strong>Date : </strong>01 Sep 2026</p>
-                    <p><strong>Role : </strong>Individual Developer</p>
-                    <p><strong>Description : </strong>Created a basic one-page website and practiced using basic Git commands.</p>
-                    <p><strong>Skills : </strong>HTML, CSS, Basic Git</p>
-                    <p><strong>Reflection : </strong>This project was my first experience learning about Git. 
-                        It helped me start learning basic Git commands.</p>
-                    <p><strong>Evidence : </strong>
-                        <a href="https://github.com/tatpitchanet-stack/MyFoodDiary.git"> View Project</a>
-                    </p>
+                        <p><strong>Type : </strong> Course Assignment</p>
+                        <p><strong>Date : </strong>29 Aug 2026</p>
+                        <p><strong>Role : </strong>Individual Developer</p>
+                        <p><strong>Description : </strong>Developed a one-page Learning Portfolio website using HTML and
+                            CSS.</p>
+                        <p><strong>Skills : </strong>HTML, CSS, Semantic HTML</p>
+                        <p><strong>Reflection : </strong>I learned how to use HTML with CSS.
+                            Doing the project by myself helped me understand more.
+                            I had some problems with arranging the text,
+                            but after trying to fix it, the layout became more organized.
+                            If I continue developing it,
+                            I will make the website more readable and interesting.
+                        </p>
+                        <p><strong>Evidence : </strong>
+                            <a href="media/6909617695.zip"> Download Project </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card project2">
+                    <div class="card-body">
+                        <h3>Food Diary</h3>
+
+                        <p><strong>Type : </strong>Course Project</p>
+                        <p><strong>Date : </strong>01 Sep 2026</p>
+                        <p><strong>Role : </strong>Individual Developer</p>
+                        <p><strong>Description : </strong>Created a basic one-page website and practiced using basic Git
+                            commands.</p>
+                        <p><strong>Skills : </strong>Basic Git, HTML, CSS</p>
+                        <p><strong>Reflection : </strong>This project was the first time I learned the basics of Git.
+                            While working on it, I had some small problems with Git commands,
+                            but they helped me understand Git better. If I continue developing this project,
+                            I would like to turn it into a real web page instead of just writing a few lines of code
+                            like this.
+                        </p>
+                        <p><strong>Evidence : </strong>
+                            <a href="https://github.com/tatpitchanet-stack/MyFoodDiary.git"> View Project</a>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-     </section>
-        
-    </body>
+    </section>
+
+</body>
 
 </html>
