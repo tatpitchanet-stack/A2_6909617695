@@ -19,12 +19,14 @@
     border: 7px solid rgb(250, 30, 34) ;
     border-radius: 30px ;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 15px;
 }
 
 #projects .project2 {
-    border: 7px solid rgb(252, 246, 70) ;
+    border: 7px solid rgb(241, 235, 57) ;
     border-radius: 30px ;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 50px;
 }
 
 .navbar {
@@ -44,6 +46,13 @@ h1, h2 {
 
 .bigsize {
     font-size: 60px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    color: rgb(219, 38, 41);
+}
+
+.bi-star-fill {
+    color: rgb(241, 235, 57);
 }
 
 .section {
@@ -56,7 +65,7 @@ body {
 }
 
 .section-AboutMe {
-    border-bottom: 6px rgb(252, 246, 70) solid;
+    border-bottom: 6px rgb(241, 235, 57) solid;
     margin-left: 20px;
     display: inline-block;
     padding-bottom: 0px;
